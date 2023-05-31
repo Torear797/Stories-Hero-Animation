@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B6C861D62A272171000FC18C /* Stories_Hero_AnimationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C861D52A272171000FC18C /* Stories_Hero_AnimationApp.swift */; };
+		B6C861D82A272171000FC18C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C861D72A272171000FC18C /* ContentView.swift */; };
+		B6C861DA2A272172000FC18C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6C861D92A272172000FC18C /* Assets.xcassets */; };
+		B6C861DD2A272172000FC18C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6C861DC2A272172000FC18C /* Preview Assets.xcassets */; };
+		B6C861EB2A2725FE000FC18C /* StoriesViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C861E52A2725FE000FC18C /* StoriesViewer.swift */; };
+		B6C861EC2A2725FE000FC18C /* StoriesViewerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C861E62A2725FE000FC18C /* StoriesViewerViewModel.swift */; };
+		B6C861ED2A2725FE000FC18C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C861E72A2725FE000FC18C /* HomeView.swift */; };
+		B6C861EE2A2725FE000FC18C /* StoriesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C861E92A2725FE000FC18C /* StoriesList.swift */; };
+		B6C861EF2A2725FE000FC18C /* StoriesListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C861EA2A2725FE000FC18C /* StoriesListViewModel.swift */; };
+		B6C861F22A27265E000FC18C /* ViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C861F12A27265E000FC18C /* ViewExtensions.swift */; };
+		B6C861F52A27268F000FC18C /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = B6C861F42A27268F000FC18C /* Kingfisher */; };
+		B6C861F92A2726F4000FC18C /* StaticButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C861F72A2726F4000FC18C /* StaticButtonStyle.swift */; };
+		B6C861FA2A2726F4000FC18C /* ButtonStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C861F82A2726F4000FC18C /* ButtonStyles.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B6C861D22A272171000FC18C /* Stories Hero Animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stories Hero Animation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6C861D52A272171000FC18C /* Stories_Hero_AnimationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stories_Hero_AnimationApp.swift; sourceTree = "<group>"; };
+		B6C861D72A272171000FC18C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B6C861D92A272172000FC18C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B6C861DC2A272172000FC18C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B6C861E52A2725FE000FC18C /* StoriesViewer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoriesViewer.swift; sourceTree = "<group>"; };
+		B6C861E62A2725FE000FC18C /* StoriesViewerViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoriesViewerViewModel.swift; sourceTree = "<group>"; };
+		B6C861E72A2725FE000FC18C /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		B6C861E92A2725FE000FC18C /* StoriesList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoriesList.swift; sourceTree = "<group>"; };
+		B6C861EA2A2725FE000FC18C /* StoriesListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoriesListViewModel.swift; sourceTree = "<group>"; };
+		B6C861F12A27265E000FC18C /* ViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtensions.swift; sourceTree = "<group>"; };
+		B6C861F72A2726F4000FC18C /* StaticButtonStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StaticButtonStyle.swift; sourceTree = "<group>"; };
+		B6C861F82A2726F4000FC18C /* ButtonStyles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonStyles.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6C861CF2A272171000FC18C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6C861F52A27268F000FC18C /* Kingfisher in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B6C861C92A272171000FC18C = {
+			isa = PBXGroup;
+			children = (
+				B6C861D42A272171000FC18C /* Stories Hero Animation */,
+				B6C861D32A272171000FC18C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B6C861D32A272171000FC18C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6C861D22A272171000FC18C /* Stories Hero Animation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6C861D42A272171000FC18C /* Stories Hero Animation */ = {
+			isa = PBXGroup;
+			children = (
+				B6C861F02A27264B000FC18C /* Extensions */,
+				B6C861D52A272171000FC18C /* Stories_Hero_AnimationApp.swift */,
+				B6C861D72A272171000FC18C /* ContentView.swift */,
+				B6C861D92A272172000FC18C /* Assets.xcassets */,
+				B6C861F62A2726F4000FC18C /* Styles */,
+				B6C861E32A2725FE000FC18C /* Stories */,
+				B6C861DB2A272172000FC18C /* Preview Content */,
+			);
+			path = "Stories Hero Animation";
+			sourceTree = "<group>";
+		};
+		B6C861DB2A272172000FC18C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B6C861DC2A272172000FC18C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B6C861E32A2725FE000FC18C /* Stories */ = {
+			isa = PBXGroup;
+			children = (
+				B6C861E72A2725FE000FC18C /* HomeView.swift */,
+				B6C861E42A2725FE000FC18C /* Stories Viewer */,
+				B6C861E82A2725FE000FC18C /* Stories List */,
+			);
+			path = Stories;
+			sourceTree = "<group>";
+		};
+		B6C861E42A2725FE000FC18C /* Stories Viewer */ = {
+			isa = PBXGroup;
+			children = (
+				B6C861E52A2725FE000FC18C /* StoriesViewer.swift */,
+				B6C861E62A2725FE000FC18C /* StoriesViewerViewModel.swift */,
+			);
+			path = "Stories Viewer";
+			sourceTree = "<group>";
+		};
+		B6C861E82A2725FE000FC18C /* Stories List */ = {
+			isa = PBXGroup;
+			children = (
+				B6C861E92A2725FE000FC18C /* StoriesList.swift */,
+				B6C861EA2A2725FE000FC18C /* StoriesListViewModel.swift */,
+			);
+			path = "Stories List";
+			sourceTree = "<group>";
+		};
+		B6C861F02A27264B000FC18C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B6C861F12A27265E000FC18C /* ViewExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B6C861F62A2726F4000FC18C /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				B6C861F72A2726F4000FC18C /* StaticButtonStyle.swift */,
+				B6C861F82A2726F4000FC18C /* ButtonStyles.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6C861D12A272171000FC18C /* Stories Hero Animation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6C861E02A272172000FC18C /* Build configuration list for PBXNativeTarget "Stories Hero Animation" */;
+			buildPhases = (
+				B6C861CE2A272171000FC18C /* Sources */,
+				B6C861CF2A272171000FC18C /* Frameworks */,
+				B6C861D02A272171000FC18C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Stories Hero Animation";
+			packageProductDependencies = (
+				B6C861F42A27268F000FC18C /* Kingfisher */,
+			);
+			productName = "Stories Hero Animation";
+			productReference = B6C861D22A272171000FC18C /* Stories Hero Animation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6C861CA2A272171000FC18C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					B6C861D12A272171000FC18C = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = B6C861CD2A272171000FC18C /* Build configuration list for PBXProject "Stories Hero Animation" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B6C861C92A272171000FC18C;
+			packageReferences = (
+				B6C861F32A27268F000FC18C /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
+			productRefGroup = B6C861D32A272171000FC18C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6C861D12A272171000FC18C /* Stories Hero Animation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6C861D02A272171000FC18C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6C861DD2A272172000FC18C /* Preview Assets.xcassets in Resources */,
+				B6C861DA2A272172000FC18C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6C861CE2A272171000FC18C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6C861EF2A2725FE000FC18C /* StoriesListViewModel.swift in Sources */,
+				B6C861D82A272171000FC18C /* ContentView.swift in Sources */,
+				B6C861F22A27265E000FC18C /* ViewExtensions.swift in Sources */,
+				B6C861FA2A2726F4000FC18C /* ButtonStyles.swift in Sources */,
+				B6C861D62A272171000FC18C /* Stories_Hero_AnimationApp.swift in Sources */,
+				B6C861EC2A2725FE000FC18C /* StoriesViewerViewModel.swift in Sources */,
+				B6C861F92A2726F4000FC18C /* StaticButtonStyle.swift in Sources */,
+				B6C861EE2A2725FE000FC18C /* StoriesList.swift in Sources */,
+				B6C861ED2A2725FE000FC18C /* HomeView.swift in Sources */,
+				B6C861EB2A2725FE000FC18C /* StoriesViewer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B6C861DE2A272172000FC18C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B6C861DF2A272172000FC18C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6C861E12A272172000FC18C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Stories Hero Animation/Preview Content\"";
+				DEVELOPMENT_TEAM = TVFWA39CU8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.torear.Stories-Hero-Animation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B6C861E22A272172000FC18C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Stories Hero Animation/Preview Content\"";
+				DEVELOPMENT_TEAM = TVFWA39CU8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.torear.Stories-Hero-Animation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6C861CD2A272171000FC18C /* Build configuration list for PBXProject "Stories Hero Animation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6C861DE2A272172000FC18C /* Debug */,
+				B6C861DF2A272172000FC18C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6C861E02A272172000FC18C /* Build configuration list for PBXNativeTarget "Stories Hero Animation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6C861E12A272172000FC18C /* Debug */,
+				B6C861E22A272172000FC18C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B6C861F32A27268F000FC18C /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B6C861F42A27268F000FC18C /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B6C861F32A27268F000FC18C /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = B6C861CA2A272171000FC18C /* Project object */;
+}
